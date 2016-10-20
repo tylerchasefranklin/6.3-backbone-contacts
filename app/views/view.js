@@ -2,7 +2,7 @@ window.$ = window.JQuery = require('jquery');
 var Backbone = require('backbone');
 var $ = require('jquery');
 require('bootstrap-sass/assets/javascripts/bootstrap');
-var contacts = require('./models/contacts.js');
+var models = require('./models/contacts.js');
 var items = require('../../templates/form.hbs');
 
 var ContactHolderView = Backbone.View.extend({
