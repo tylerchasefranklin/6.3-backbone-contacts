@@ -1,7 +1,8 @@
 var Backbone = require('backbone');
+var $ = require('jquery');
 
 var Contact = Backbone.Model.extend({
-
+  idAttribute: '_id'
 });
 
 var ContactCollection = Backbone.Collection.extend({
